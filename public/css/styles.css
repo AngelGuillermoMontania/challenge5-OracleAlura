@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('./normalize.css');
+@import url('./header.css');
+@import url('./home.css');
+@import url('./login.css');
+@import url('./allProducts.css');
+@import url('./addProducts.css');
+@import url('./footer.css');
+
+:root {
+    --blue: #2A7AE4;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #eeeeee;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}

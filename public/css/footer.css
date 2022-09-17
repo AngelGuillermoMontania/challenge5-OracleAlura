@@ -1,0 +1,141 @@
+footer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+footer .contain-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer .contain-footer .questions {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer .contain-information svg{
+    margin: 1rem 0;
+    width: 10rem;
+    height: 2.5rem;
+}
+
+footer .contain-information p{
+    margin: 0.5rem 0;
+    font-size: 0.8rem;
+}
+
+footer .form{
+    font-weight: bold;
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 12rem;
+}
+
+footer .form input,
+footer .form textarea{
+    border: none;
+    background-color: #eeeeee;
+    border-bottom: rgb(171, 171, 171) 1px solid;
+    border-radius: 2px;
+}
+
+footer .form input{
+    height: 2.5rem;
+}
+
+footer .form textarea{
+    height: 4rem;
+    max-width: 100%;
+    max-height: 4rem;
+}
+
+footer .form input:active,
+footer .form input:focus,
+footer .form input:visited {
+    border: none;
+    outline: none;
+}
+
+footer .form button{
+    height: 3rem;
+    width: 50%;
+    border: none;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+footer .form span{
+    color: red;
+    font-weight: 100;
+}
+
+section.contain-develop{
+    text-align: center;
+    padding: 5vw 20vw;
+    background-color: #eeeeee;
+}
+
+@media (min-width: 768px) {
+
+    footer .contain-footer {
+        display: flex;
+        padding: none;
+    }
+
+    footer .contain-footer .contain-information {
+        width: 30%;
+    }
+
+    footer .contain-footer form {
+        width: 70%;
+    }
+
+    section.contain-develop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5vw 35vw;
+    }
+    
+}
+
+@media (min-width: 1440px) {
+
+    footer .contain-footer {
+        display: flex;
+        padding: 0 15%;
+    }
+
+    footer .contain-footer .contain-information {
+        width: 40%;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+
+    footer .contain-information svg{
+        margin: 0 0;
+        width: 12rem;
+        height: 4rem;
+    }
+
+    footer .contain-footer form {
+        width: 60%;
+    }
+
+    section.contain-develop{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3vw 25vw;
+    }
+    
+}

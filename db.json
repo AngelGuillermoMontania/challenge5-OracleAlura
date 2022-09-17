@@ -1,0 +1,160 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "cup.png",
+      "category": "Star Wars"
+    },
+    {
+      "id": "2",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "mask.png",
+      "category": "Star Wars"
+    },
+    {
+      "id": "3",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "yoda.png",
+      "category": "Star Wars"
+    },
+    {
+      "id": "4",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "trooper.png",
+      "category": "Star Wars"
+    },
+    {
+      "id": "5",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "miniYoda.png",
+      "category": "Star Wars"
+    },
+    {
+      "id": "6",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "darkTrooper.png",
+      "category": "Star Wars"
+    },
+    {
+      "id": "7",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "xbox.png",
+      "category": "Consolas"
+    },
+    {
+      "id": "8",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "ps.png",
+      "category": "Consolas"
+    },
+    {
+      "id": "9",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "nintendo.png",
+      "category": "Consolas"
+    },
+    {
+      "id": "10",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "nintendoPortable.png",
+      "category": "Consolas"
+    },
+    {
+      "id": "11",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "consoleBox.png",
+      "category": "Consolas"
+    },
+    {
+      "id": "12",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "GameBoy.png",
+      "category": "Consolas"
+    },
+    {
+      "id": "13",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "atari.png",
+      "category": "Diversos"
+    },
+    {
+      "id": "14",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "snes.png",
+      "category": "Diversos"
+    },
+    {
+      "id": "15",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "sonic.png",
+      "category": "Diversos"
+    },
+    {
+      "id": "16",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "console.png",
+      "category": "Diversos"
+    },
+    {
+      "id": "17",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "oculus.png",
+      "category": "Diversos"
+    },
+    {
+      "id": "18",
+      "title": "Producto XYZ",
+      "price": "$ 60,00",
+      "image": "pikachu.png",
+      "category": "Diversos"
+    },
+    {
+      "id": "4f0c5f4d-8596-4701-97fd-cb4fa84f5240",
+      "title": "Portada",
+      "price": "$ 50",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/image_c671e2ee.jpeg?region=0,0,540,810",
+      "description": "dshajkbdjk ad a",
+      "category": "Star Wars"
+    },
+    {
+      "id": "ec804b26-43d0-437a-b007-b8452eb09064",
+      "title": "Portada2",
+      "price": "$ 50",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/image_c671e2ee.jpeg?region=0,0,540,810",
+      "description": "dsa das",
+      "category": "Star Wars"
+    },
+    {
+      "id": "812317d7-5f19-47b0-8384-089a71123808",
+      "title": "dasjknd",
+      "price": "$ 50",
+      "image": "https://lumiere-a.akamaihd.net/v1/images/image_c671e2ee.jpeg?region=0,0,540,810",
+      "description": "dsjahid a",
+      "category": "Star Wars"
+    }
+  ],
+  "users": [
+    {
+      "email": "Admin@gmail.com",
+      "pass": "Admin1234"
+    }
+  ]
+}

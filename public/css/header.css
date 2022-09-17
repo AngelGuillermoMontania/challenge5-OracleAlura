@@ -1,0 +1,75 @@
+header {
+    display: flex;
+    height: 4.1rem;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+header form {
+    display: none;
+    height: 90%;
+}
+
+header .btnLogin {
+    padding: 0.5rem 2rem;
+    background-color: transparent;
+    border: 1px solid var(--blue);
+    text-decoration: none;
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+header .btnLogin:hover {
+    cursor: pointer;
+    color: white;
+    background-color: var(--blue);
+}
+
+@media (min-width: 768px) {
+
+    header form {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    header form input{
+        padding: 10px;
+        border-radius: 15px;
+        border: solid rgba(144, 142, 251, 0.28) 1px;
+    }
+
+    header form .icon-inputSearch{
+        position: absolute;
+        top: 35%;
+        right: 5%;
+    }
+
+    header .icon-search {
+        display: none;
+    }
+}
+
+@media (min-width: 1440px) {
+
+    header {
+        height: 6rem;
+    }
+
+    header svg {
+        width: 10rem;
+        height: 3rem;
+    }
+
+    header .image-search {
+        height: 6rem;
+    }
+
+    header .btnLogin {
+        padding: 0.7rem 4rem;
+        font-size: 1.5rem;
+    }
+
+}

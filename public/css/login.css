@@ -1,0 +1,89 @@
+.login header {
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.login main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    padding: 0 15%;
+}
+
+.login main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 15rem;
+    width: 100%;
+}
+
+.login main form .title{
+    font-weight: bold;
+}
+
+.login main form input,
+.login main form textarea{
+    border: none;
+    background-color: white;
+    border-bottom: rgb(126, 126, 126) 1px solid;
+    border-radius: 2px;
+    padding: 0.5rem 0.5rem;
+    width: 100%;
+}
+
+.login main form #btnSubmit {
+    padding: 0.5rem 1.2rem;
+    background-color: var(--blue);
+    border: none;
+    color: white;
+    transition: all 500ms;
+}
+
+.login main form #btnSubmit:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+    color: black;
+}
+
+.login main form input::placeholder {
+    color: gray;
+}
+
+.login main form input:active,
+.login main form input:focus,
+.login main form input:visited {
+    border: none;
+    outline: none;
+}
+
+@media (min-width: 768px) {
+
+    .login main {
+        padding: 0 30%;
+    }
+
+    .login header {
+        justify-content: flex-start;
+        padding: 0 3rem;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .login main {
+        padding: 0 35%;
+    }
+
+}
+
+@media (min-width: 1440px) {
+
+    .login main {
+        height: 50vh;
+    }
+
+}

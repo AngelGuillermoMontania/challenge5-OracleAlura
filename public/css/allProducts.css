@@ -1,0 +1,86 @@
+.allProducts header {
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.allProducts main {
+    padding: 1vw 10vw;
+}
+
+.allProducts main .head{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.allProducts main .head .title{
+    font-weight: bold;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+}
+
+.allProducts main .head .btnAdd{
+    background-color: var(--blue);
+    text-decoration: none;
+    color: white;
+    width: 70%;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+.allProducts main .contain-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.allProducts main .contain-cards .card{
+    margin: 0.5rem 8px;
+    width: 7rem;
+}
+
+.allProducts main .contain-cards .card img{
+    width: 100%;
+    height: 60%;
+}
+
+.allProducts main .contain-cards .card p{
+    margin: 0.5rem 0;
+}
+
+@media (min-width: 768px) {
+
+    .allProducts header {
+        justify-content: flex-start;
+        padding: 0 3rem;
+    }
+
+    .allProducts main {
+        padding: 1vw 12vw;
+    }
+
+    .allProducts main .head{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0.5rem 0;
+    }
+
+    .allProducts main .head .title{
+        font-weight: bold;
+        margin: 0 0;
+        font-size: 1.5rem;
+    }
+
+    .allProducts main .head .btnAdd{
+        width: 10rem;
+    }
+
+    .allProducts main .contain-cards .card{
+        margin: 0.5rem 8px;
+        width: 8rem;
+    }
+
+}
